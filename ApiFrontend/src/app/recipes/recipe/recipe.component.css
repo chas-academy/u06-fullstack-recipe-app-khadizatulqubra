@@ -1,0 +1,50 @@
+
+body{
+    background-image: url("https://www.netcostmarket.com/wp-content/uploads/2019/10/food-background-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.recipediv{
+    background-color:rgba(240, 238, 218, 0.384);
+    width: 800px; 
+    height: auto;
+     margin-left: 300px;
+     border: 1px solid rgb(178, 178, 174);
+     box-shadow:inset 0 -5em 5em rgba(8, 7, 7, 0.1), 0 0 0 2px rgb(240, 238, 218),
+     0.4em 0.4em 2em rgba(0, 0, 0, 0.3);
+     margin-top: 100px;
+    padding: 10px;
+    color: rgb(19, 20, 19);
+
+}
+h1{text-align: center;
+padding: 15px;}
+h2{text-align: center;
+}
+img{position: relative;
+left: 250px;
+border-radius: 5px;
+}
+p{
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+ul li{
+    text-align: center;
+}
+.time{text-align: center;}
+
+@media screen and (max-width: 999px) {
+    body{
+        margin-top: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recipediv{
+        margin-top: 300px;
+        flex: 50%;
+        
+    }
+}

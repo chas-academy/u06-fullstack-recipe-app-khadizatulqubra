@@ -1,0 +1,17 @@
+<body>
+  <div class="recipediv">
+    <h1>{{ title }}</h1>
+    <div class="time">{{ today | date : "medium" }}</div>
+
+    <article *ngIf="recipe">
+      <h2>{{ recipe.recipe.label }}</h2>
+      <img [src]="recipe.recipe.image" [alt]="recipe.recipe.label" />
+      <p>Here are the ingredient of the meal</p>
+      <ul *ngFor="let ingredient of recipe.recipe.ingredientLines">
+        <li>
+          {{ingredient }}
+        </li>
+      </ul>
+    </article>
+  </div>
+</body>

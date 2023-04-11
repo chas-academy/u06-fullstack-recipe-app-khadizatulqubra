@@ -1,0 +1,11 @@
+body{
+    background-image: url("https://www.netcostmarket.com/wp-content/uploads/2019/10/food-background-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+@media screen and (max-width: 999px) {
+    body{
+        margin-top: 300px;
+    }
+}

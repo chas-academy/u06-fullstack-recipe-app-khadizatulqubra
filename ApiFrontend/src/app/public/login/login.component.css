@@ -1,0 +1,10 @@
+.container{
+    margin-top: 100px;
+    width: 400px;
+    background-color: rgba(146, 146, 147, 0.473);
+}
+@media screen and (max-width: 999px) {
+    .container{
+        margin-top: 550px;
+    }
+}

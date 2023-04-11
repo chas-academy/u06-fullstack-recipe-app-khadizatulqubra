@@ -1,0 +1,25 @@
+
+
+ <div class="container mb-2 p-2">
+  <div >{{ isLoggedIn? 'You are logged in!':'Login' }}</div>
+  <div class="card-body">
+    <form  [formGroup]="form"  (ngSubmit)="submit()" >
+      <input type="email" class="form-control" id="email" formControlName="email"  placeholder="Enter email" required  autocomplete="email">
+          
+      <div>
+        <label for="email">Email address</label>
+      </div>
+      <br>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" formControlName="password"  placeholder="Password"  required autocomplete="current-password" >
+      </div>
+      <br>
+      <button *ngIf="!isLoggedIn" type="submit" class="btn btn-primary m-2"routerLink="/secure" >Submit</button>
+      
+      <button *ngIf="!isLoggedIn" class="btn btn-primary m-2" routerLink="/">Sign up</button>
+    </form> 
+     
+ </div>
+</div> 
+ 
