@@ -15,5 +15,12 @@ export class AppComponent {
  /*  constructor(public userService: UserService) { }
   logout() {
     this.userService.doLogout()
+
   } */
+  me ={
+    id:0,
+    name:"",
+    email:"shane.jacobs@example.com",
+    password:"password"
+  }
 }

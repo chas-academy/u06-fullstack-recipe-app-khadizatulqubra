@@ -16,7 +16,7 @@ export class UserService {
  
 httpClient: any;
   
-configUrl =  "http://127.0.0.1:8000/api/"; 
+configUrl =  "https://u06-init-production-319f.up.railway.app/api/"; 
 username: any="";
 httpOptions ={
   headers: new HttpHeaders ({

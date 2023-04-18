@@ -23,7 +23,7 @@ import { Router } from '@angular/router';
       const headers = new HttpHeaders({
         Authorization: `Bearer ${token}`
       });
-      this.http.post('http://127.0.0.1:8000/api/logout', null, { headers }).subscribe(
+      this.http.post('https://u06-init-production-319f.up.railway.app/api/logout', null, { headers }).subscribe(
         result => {
           console.log(result);
           localStorage.removeItem('token');
