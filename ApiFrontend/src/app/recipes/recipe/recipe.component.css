@@ -44,7 +44,18 @@ ul li{
     }
     .recipediv{
         margin-top: 300px;
-        flex: 50%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+      }
+        
+    
+    img{
+       
+        width: 150px;
+       left: 10px;
         
     }
 }
