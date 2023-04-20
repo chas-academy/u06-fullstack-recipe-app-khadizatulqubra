@@ -41,6 +41,7 @@ ul li{
         margin-top: 400px;
         display: flex;
         flex-wrap: wrap;
+        width: auto;
     }
     .recipediv{
         margin-top: 300px;
